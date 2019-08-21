@@ -1,0 +1,44 @@
+﻿<Window x:Class="Programa_de_interconexion.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Programa_de_interconexion"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="740" Width="1380">
+    <Grid>
+
+        <Button x:Name="Solicitud" Content="Solicitud De&#xA;Interconexion" Height="57" Margin="59,252,0,0" Width="180" VerticalAlignment="Top" HorizontalAlignment="Left" Click="Solicitud_Click"  />
+        <Rectangle Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="203" Margin="59,23,0,0" Stroke="Black" VerticalAlignment="Top" Width="178"/>
+
+        <Button x:Name="Fichas" Content="Fichas Tecnicas" HorizontalAlignment="Left" Height="57" Margin="292,252,0,0" VerticalAlignment="Top" Width="179" Click="Fichas_Click"/>
+        <Rectangle Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="202" Margin="289,21,0,0" Stroke="Black" VerticalAlignment="Top" Width="179"/>
+
+        <Button x:Name="Croquis" Content="Croquis De&#xD;&#xA;Ubicacion" HorizontalAlignment="Left" Height="57" Margin="522,252,0,0" VerticalAlignment="Top" Width="180" Click="Croquis_Click" />
+        <Rectangle Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="202" Margin="524,21,0,0" Stroke="Black" VerticalAlignment="Top" Width="178"/>
+
+        <Button x:Name="Diagrama" Content="Diagrama&#xD;&#xA;Unifilar" Height="57" Margin="756,252,0,0" Width="179" VerticalAlignment="Top" HorizontalAlignment="Left" HorizontalContentAlignment="Center" Click="Diagrama_Click"/>
+        <Rectangle Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="203" Margin="755,23,0,0" Stroke="Black" VerticalAlignment="Top" Width="178"/>
+
+        <Button x:Name="Identificacion" Content="Identificacion&#xD;&#xA;Oficial" Height="58" Margin="59,570,0,0" Width="180" VerticalAlignment="Top" HorizontalAlignment="Left" Click="Identificacion_Click"/>
+        <Rectangle Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="202" Margin="59,340,0,0" Stroke="Black" VerticalAlignment="Top" Width="178"/>
+
+        <Button x:Name="RFC" Content="RFC" HorizontalAlignment="Left" VerticalAlignment="Top" Width="180" Margin="292,573,0,0" Height="58" Click="RFC_Click"/>
+        <Rectangle Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="203" Margin="288,338,0,0" Stroke="Black" VerticalAlignment="Top" Width="178"/>
+
+        <Button x:Name="Constancia" Content="Constancia De&#xD;&#xA;No Adeudo" Height="58" Margin="521,570,0,0" Width="179" VerticalAlignment="Top" HorizontalAlignment="Left" Click="Constancia_Click"/>
+        <Rectangle Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="202" Margin="520,342,0,0" Stroke="Black" VerticalAlignment="Top" Width="179"/>
+
+        <Button x:Name="Fotos" Content="Fotografias De&#xD;&#xA;La Instalacion" Height="58" Margin="755,572,0,0" Width="180" VerticalAlignment="Top" HorizontalAlignment="Left" Click="Fotos_Click"/>
+        <Rectangle Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="203" Margin="753,338,0,0" Stroke="Black" VerticalAlignment="Top" Width="178"/>
+
+
+
+
+        <Calendar HorizontalAlignment="Left" Height="247" Margin="1077,146,0,0" VerticalAlignment="Top" Width="260"/>
+        <Image HorizontalAlignment="Left" Height="113" VerticalAlignment="Top" Width="271" Margin="1042,21,0,0" Source="Comisión_Federal_de_Electricidad_(logo).jpg"/>
+        <Button Content="Informacion Para Llenar Contratos" HorizontalAlignment="Left" Height="44" Margin="1009,636,0,0" VerticalAlignment="Top" Width="304" Click="Button_Click"/>
+        <Button Content="Button" HorizontalAlignment="Left" Height="183" Margin="1009,393,0,0" VerticalAlignment="Top" Width="304" Click="Button_Click_1"/>
+
+    </Grid>
+</Window>

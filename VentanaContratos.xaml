@@ -1,0 +1,227 @@
+﻿<Window x:Class="Programa_de_interconexion.VentanaContratos"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Programa_de_interconexion"
+        mc:Ignorable="d"
+        Title="VentanaContratos" Height="740" Width="1380">
+    <Grid Margin="-1,0,1,0">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        <Label Content="I. Datos Del Solicitante" HorizontalAlignment="Left" Height="29" Margin="11,3,0,0" VerticalAlignment="Top" Width="147"/>
+        <Label Content="Nombre:" HorizontalAlignment="Left" Height="29" Margin="35,46,0,0" VerticalAlignment="Top" Width="56"/>
+        <TextBox x:Name="NombreSolicitante" HorizontalAlignment="Left" Height="20" Margin="105,55,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="95" TextChanged="NombreSolicitante_TextChanged"/>
+
+        <Label Content="Telefono:" HorizontalAlignment="Left" Height="29" Margin="211,50,0,0" VerticalAlignment="Top" Width="57"/>
+        <TextBox x:Name="TelefonSolicitante" HorizontalAlignment="Left" Height="20" Margin="275,55,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="95"/>
+
+        <Label Content="Correo:" HorizontalAlignment="Left" Height="30" Margin="42,82,0,0" VerticalAlignment="Top" Width="56"/>
+        <TextBox x:Name="CorreoSolicitante" HorizontalAlignment="Left" Height="20" Margin="105,87,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="252"/>
+
+        <Label Content="Domicilio" HorizontalAlignment="Left" Height="30" Margin="50,116,0,0" VerticalAlignment="Top" Width="125"/>
+        <Label Content="Calle:" HorizontalAlignment="Left" Height="29" Margin="35,148,0,0" VerticalAlignment="Top" Width="38"/>
+        <TextBox x:Name="CalleSolicitante" HorizontalAlignment="Left" Height="21" Margin="78,154,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="97"/>
+
+        <Label Content="Num. Ext.:" HorizontalAlignment="Left" Height="29" Margin="16,177,0,0" VerticalAlignment="Top" Width="57"/>
+        <TextBox x:Name="NumExtSolicitante" HorizontalAlignment="Left" Height="20" Margin="78,186,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="97"/>
+
+        <Label Content="Num. Int.:" HorizontalAlignment="Left" Height="29" Margin="16,206,0,0" VerticalAlignment="Top" Width="57"/>
+        <TextBox x:Name="NumIntSolicitante" HorizontalAlignment="Left" Height="21" Margin="78,212,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="97"/>
+
+        <Label Content="Colonia:" HorizontalAlignment="Left" Height="29" Margin="18,239,0,0" VerticalAlignment="Top" Width="55"/>
+        <TextBox x:Name="ColoniaSolicitante" HorizontalAlignment="Left" Height="21" Margin="78,246,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="97"/>
+
+        <Label Content="Codigo Postal:" HorizontalAlignment="Left" Height="29" Margin="175,146,0,0" VerticalAlignment="Top" Width="82"/>
+        <TextBox x:Name="CodigoPostalSolicitante" HorizontalAlignment="Left" Height="21" Margin="262,154,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="97"/>
+
+        <Label Content="Municipio:" HorizontalAlignment="Left" Height="29" Margin="192,175,0,0" VerticalAlignment="Top" Width="65"/>
+        <TextBox x:Name="MunicipioSolicitante" HorizontalAlignment="Left" Height="21" Margin="262,183,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="97"/>
+
+        <Label Content="Estado:" HorizontalAlignment="Left" Height="29" Margin="207,204,0,0" VerticalAlignment="Top" Width="50"/>
+        <TextBox x:Name="EstadoSolicitante" HorizontalAlignment="Left" Height="21" Margin="262,212,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="97"/>
+
+
+        <Label Content="II. Datos Del Contacto" HorizontalAlignment="Left" Height="29" Margin="11,309,0,0" VerticalAlignment="Top" Width="125"/>
+        <Label Content="Nombre:" HorizontalAlignment="Left" Height="29" Margin="25,337,0,0" VerticalAlignment="Top" Width="57"/>
+        <TextBox x:Name="NombreContacto" HorizontalAlignment="Left" Height="21" Margin="103,345,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="97"/>
+
+        <Label Content="Puesto:" HorizontalAlignment="Left" Height="29" Margin="25,366,0,0" VerticalAlignment="Top" Width="57"/>
+        <TextBox x:Name="PuestoContacto" HorizontalAlignment="Left" Height="21" Margin="103,374,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="97"/>
+
+        <Label Content="Telefono:" HorizontalAlignment="Left" Height="29" Margin="211,340,0,0" VerticalAlignment="Top" Width="57"/>
+        <TextBox x:Name="TelefonoContacto" HorizontalAlignment="Left" Height="21" Margin="273,345,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="97"/>
+
+        <Label Content="Correo:" HorizontalAlignment="Left" Height="29" Margin="211,366,0,0" VerticalAlignment="Top" Width="57"/>
+        <TextBox x:Name="CorreoContacto" HorizontalAlignment="Left" Height="21" Margin="273,373,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="97"/>
+
+
+        <Label Content="Domicilio" HorizontalAlignment="Left" Height="29" Margin="50,409,0,0" VerticalAlignment="Top" Width="123"/>
+        <Label Content="Calle:" HorizontalAlignment="Left" Height="29" Margin="27,434,0,0" VerticalAlignment="Top" Width="38"/>
+        <TextBox x:Name="CalleContacto" HorizontalAlignment="Left" Height="20" Margin="78,440,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="95"/>
+
+        <Label Content="Num. Ext.:" HorizontalAlignment="Left" Height="29" Margin="9,463,0,0" VerticalAlignment="Top" Width="56"/>
+        <TextBox x:Name="NumExtContacto" HorizontalAlignment="Left" Height="20" Margin="78,469,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="95"/>
+
+        <Label Content="Num. Int.:" HorizontalAlignment="Left" Height="29" Margin="9,492,0,0" VerticalAlignment="Top" Width="56"/>
+        <TextBox x:Name="NumIntContacto" HorizontalAlignment="Left" Height="21" Margin="78,498,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="95"/>
+
+        <Label Content="Colonia:" HorizontalAlignment="Left" Height="29" Margin="9,521,0,0" VerticalAlignment="Top" Width="56"/>
+        <TextBox x:Name="ColoniaContacto" HorizontalAlignment="Left" Height="21" Margin="78,528,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="95"/>
+
+        <Label Content="Codigo Postal:" HorizontalAlignment="Left" Height="29" Margin="173,433,0,0" VerticalAlignment="Top" Width="82"/>
+        <TextBox x:Name="CodigoPostalContacto" HorizontalAlignment="Left" Height="21" Margin="260,441,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="97"/>
+
+        <Label Content="Municipio:" HorizontalAlignment="Left" Height="29" Margin="190,462,0,0" VerticalAlignment="Top" Width="65"/>
+        <TextBox x:Name="MunicipioContacto" HorizontalAlignment="Left" Height="21" Margin="260,470,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="97"/>
+
+        <Label Content="Estado:" HorizontalAlignment="Left" Height="29" Margin="205,491,0,0" VerticalAlignment="Top" Width="50"/>
+        <TextBox x:Name="EstadoContacto" HorizontalAlignment="Left" Height="21" Margin="260,499,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="97"/>
+
+
+
+        <Label Content="III. Datos De La Solicitud" HorizontalAlignment="Left" Height="26" Margin="25,585,0,0" VerticalAlignment="Top" Width="162"/>
+        <Label Content="Modalidad de la Solicitud" HorizontalAlignment="Left" Height="27" Margin="25,618,0,0" VerticalAlignment="Top" Width="170"/>
+        <RadioButton x:Name="chkMediaTension" Content="Media Tensión" HorizontalAlignment="Left" Height="16" Margin="53,649,0,0" VerticalAlignment="Top" Width="114"/>
+        <RadioButton x:Name="chkBajaTension" Content="Baja Tensión" HorizontalAlignment="Left" Height="18" Margin="173,650,0,0" VerticalAlignment="Top" Width="114"/>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        <TextBlock HorizontalAlignment="Left" Height="42" Margin="459,12,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="130"><Run Text="IV. Utilisacion de "/><LineBreak/><Run Text="la"/><Run Text=" "/><Run Text="Energía Producida"/></TextBlock>
+        <RadioButton x:Name="chkConsumo" Content="Consumo de Centros de Carga" HorizontalAlignment="Left" Height="20" Margin="456,87,0,0" VerticalAlignment="Top" Width="192"/>
+        <RadioButton x:Name="chkVentaTotal" Content="Venta Total" HorizontalAlignment="Left" Height="19" Margin="653,87,0,0" VerticalAlignment="Top" Width="109" RenderTransformOrigin="0.353,4.176"/>
+        <RadioButton x:Name="chkVentaExedentes" Content="Consumo de Centros de Carga y Venta de Exedentes" HorizontalAlignment="Left" Height="24" Margin="456,127,0,0" VerticalAlignment="Top" Width="298" Checked="RadioButton_Checked_1"/>
+
+        <TextBlock HorizontalAlignment="Left" Height="38" Margin="459,191,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="171" Text="V. Datos del Servicio Suministro Actual"/>
+        <TextBlock HorizontalAlignment="Left" Height="33" Margin="456,238,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="188"><Run Text="Fecha estimada de operación"/><LineBreak/><Run Text="("/><Run Text="DD/MM/AA) "/></TextBlock>
+        <TextBox x:Name="FechaDeOperacion" HorizontalAlignment="Left" Height="21" Margin="456,273,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="114" TabIndex="12"/>
+
+        <TextBlock HorizontalAlignment="Left" Height="36" Margin="653,238,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="118" Text="Nivel de Tensión de Suministro:"/>
+        <TextBox x:Name="NivelTensionSuministro" HorizontalAlignment="Left" Height="21" Margin="646,273,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="111" TabIndex="12"/>
+
+        <Label Content="RPU:" HorizontalAlignment="Left" Height="26" Margin="783,238,0,0" VerticalAlignment="Top" Width="45"/>
+        <TextBox x:Name="RPU" HorizontalAlignment="Left" Height="21" Margin="783,273,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="111" TabIndex="12" UndoLimit="12"/>
+
+        <TextBlock HorizontalAlignment="Left" Height="39" Margin="462,314,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="104" Text="Capacidad Bruta instalada (kW):"/>
+        <TextBox x:Name="CapacidadInstalada" HorizontalAlignment="Left" Height="19" Margin="459,358,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="107" TabIndex="12"/>
+
+        <TextBlock HorizontalAlignment="Left" Height="39" Margin="592,314,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="165"><Run Text="Capacidad a Incrementar:"/><Run Text=" (kW)(Opcional)"/></TextBlock>
+        <TextBox x:Name="CapacidadAIncrementar" HorizontalAlignment="Left" Height="19" Margin="592,358,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="114" TabIndex="12"/>
+
+        <TextBlock HorizontalAlignment="Left" Height="34" Margin="783,314,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="181"><Run Text="Generacion Prom"/><Run Text="."/><Run Text=" Mensual"/><Run Text=" Etimada(kW"/><Run Text="h"/><Run Text="/"/><Run Text="mes"/><Run Text=")"/></TextBlock>
+        <TextBox x:Name="GeneracionPromedioMes" HorizontalAlignment="Left" Height="19" Margin="780,353,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="111" TabIndex="12"/>
+
+
+
+
+        <TextBlock HorizontalAlignment="Left" Height="38" Margin="456,414,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="238" Text="VII. Manifestacion del Cumplimiento de las Espesificaciones Tecnicas Generales"/>
+        <RadioButton x:Name="chkSolar" Content="Solar" HorizontalAlignment="Left" Height="17" Margin="454,470,0,0" VerticalAlignment="Top" Width="112"/>
+        <RadioButton x:Name="chkBiomasa" Content="Biomasa" HorizontalAlignment="Left" Height="16" Margin="566,470,0,0" VerticalAlignment="Top" Width="112"/>
+        <RadioButton x:Name="chkCogeneracion" Content="Cogeneracion" HorizontalAlignment="Left" Height="16" Margin="678,471,0,0" VerticalAlignment="Top" Width="112"/>
+        <RadioButton x:Name="chkEolica" Content="Eolico" HorizontalAlignment="Left" Height="18" Margin="790,470,0,0" VerticalAlignment="Top" Width="112"/>
+
+        <TextBlock HorizontalAlignment="Left" Height="34" Margin="459,508,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="79"><Run Text="Combustible princ"/><Run Text="ipal:"/></TextBlock>
+        <TextBox x:Name="CombustiblePrincipal" HorizontalAlignment="Left" Height="19" Margin="543,523,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="113"/>
+
+        <TextBlock HorizontalAlignment="Left" Height="34" Margin="675,508,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="79"><Run Text="Combustible Secundario:"/></TextBlock>
+        <TextBox x:Name="CombustibleSecundario" HorizontalAlignment="Left" Height="19" Margin="760,523,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="113"/>
+
+        <TextBlock HorizontalAlignment="Left" Height="33" Margin="462,572,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="113" Text="No. de Unidades de Generación:"/>
+        <TextBox x:Name="UnidadesDeGeneracion" HorizontalAlignment="Left" Height="19" Margin="581,586,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="113"/>
+
+
+
+
+
+
+
+
+
+        <Rectangle Fill="#FF303C72" HorizontalAlignment="Left" Height="710" Margin="416,0,0,-1" Stroke="#FF303C72" VerticalAlignment="Top" Width="10" RadiusY="8" RadiusX="8" RenderTransformOrigin="0.5,0.5">
+            <Rectangle.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform AngleX="0.263"/>
+                    <RotateTransform/>
+                    <TranslateTransform X="0.495"/>
+                </TransformGroup>
+            </Rectangle.RenderTransform>
+        </Rectangle>
+        <Rectangle Fill="#FF303C72" HorizontalAlignment="Left" Height="10" Margin="-6,280,0,0" Stroke="#FF303C72" VerticalAlignment="Top" Width="420" RadiusY="8" RadiusX="8" RenderTransformOrigin="0.5,0.5">
+            <Rectangle.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform AngleX="0.263"/>
+                    <RotateTransform/>
+                    <TranslateTransform X="0.495"/>
+                </TransformGroup>
+            </Rectangle.RenderTransform>
+        </Rectangle>
+
+        <Button x:Name="Boton_Regresar" Content="Regresar" HorizontalAlignment="Left" VerticalAlignment="Top" Width="75" Margin="320,660,0,0" Click="Boton_Regresar_Click"/>
+
+
+
+
+
+
+        <Rectangle Fill="#FF303C72" HorizontalAlignment="Left" Height="10" Margin="0,565,0,0" Stroke="#FF303C72" VerticalAlignment="Top" Width="420" RadiusY="8" RadiusX="8" RenderTransformOrigin="0.5,0.5">
+            <Rectangle.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform AngleX="0.263"/>
+                    <RotateTransform/>
+                    <TranslateTransform X="0.495"/>
+                </TransformGroup>
+            </Rectangle.RenderTransform>
+        </Rectangle>
+        <Rectangle Fill="#FF303C72" HorizontalAlignment="Left" Height="710" Margin="935,5,0,-6" Stroke="#FF303C72" VerticalAlignment="Top" Width="10" RadiusY="8" RadiusX="8" RenderTransformOrigin="0.5,0.5">
+            <Rectangle.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform AngleX="0.263"/>
+                    <RotateTransform/>
+                    <TranslateTransform X="0.495"/>
+                </TransformGroup>
+            </Rectangle.RenderTransform>
+        </Rectangle>
+        <Button Content="Generar Solicitud" HorizontalAlignment="Left" Height="648" Margin="976,32,0,0" VerticalAlignment="Top" Width="360" Click="Button_Click"/>
+        <Label x:Name="xd" Content="Fax" HorizontalAlignment="Left" Height="29" Margin="207,238,0,0" VerticalAlignment="Top" Width="50"/>
+        <TextBox x:Name="Fax1" HorizontalAlignment="Left" Height="21" Margin="262,246,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="97"/>
+        <Label x:Name="xd_Copy" Content="Fax" HorizontalAlignment="Left" Height="29" Margin="205,521,0,0" VerticalAlignment="Top" Width="50"/>
+        <TextBox x:Name="Fax2" HorizontalAlignment="Left" Height="21" Margin="260,529,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="97"/>
+
+    </Grid>
+</Window>
